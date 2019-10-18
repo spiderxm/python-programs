@@ -1,0 +1,8 @@
+print("Enter principle amount")
+p=int(input())
+print("Enter rate")
+r=float(input())
+print("Enter time")
+t=int(input())
+ci=p*pow((1+r/100),t)
+print("Compound Interest is ", ci)
