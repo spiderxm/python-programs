@@ -1,5 +1,9 @@
+print("Enter a number")
 a=int(input())
-b=int(input())
-a,b=b,a
-print("Numbers after swapping are")
-print(a,b)
+b=0
+while a>0:
+	b=(b*10)+(a%10)
+	a=a//10
+print(b)
+ 
+   
