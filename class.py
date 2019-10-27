@@ -10,6 +10,6 @@ class info:
 
 
 
-a=info("mrigank","college first year",195516)
+a=info("mrigank","college first year",19****)
 a.showinfo()
 
